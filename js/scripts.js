@@ -25,7 +25,7 @@ $(document).ready(function() {
 
         var target = $(this.getAttribute('href'));
         if (target.length) {
-            var remValue = 3; // Adjust this value to your desired rem value
+            var remValue = 5; // Adjust this value to your desired rem value
             var rootFontSize = parseFloat(getComputedStyle(document.documentElement).fontSize);
             var offset = remValue * rootFontSize;
 
